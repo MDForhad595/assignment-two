@@ -2,6 +2,7 @@ body{
     width: 80%;
     margin: auto;
 }
+/* header aria start */
 .head{
     display: flex;
     justify-content: space-between;
@@ -30,7 +31,7 @@ body{
 }
 .text-aria button{
     background-color: #dd1177da;
-    padding: 0 20px;
+    padding: 8px 25px;
     border-radius: 15px;
     font-weight: 700;
     color: white;
@@ -39,5 +40,15 @@ body{
 .text-aria button img{
     height: 15px;
     margin-left: 5px;
-    margin-top: 5px;
 }
+.add-logo img{
+    padding: 10px 20px;
+    margin-left: 20px;
+}
+.logo-photo hr{
+    color: rgb(15, 122, 228);
+}
+.logo-photo{
+    margin-top: 80px;
+}
+/* header aria end  */
