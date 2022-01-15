@@ -163,3 +163,27 @@ body{
 .md-img-aria {
     width: 50%;
 }
+/*------------ add footer teg :start------------ */
+.footer-star {
+    margin-top: 50px;
+    text-align: center;
+    line-height: 20px;
+    background-color:  #150b3b;
+    height: 120px;
+    width: 100%;
+    padding: 30px;
+}
+.footer-start h1 {
+    font-family: 'Poppins';
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.footer-start h2 {
+    font-family: 'Manrope';
+    font-size: 14px;
+    color: #D9DBE1;
+}
+.footer-end a {
+    margin: 5px;
+}
+/*------------ add footer teg :end------------ */
