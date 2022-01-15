@@ -1,8 +1,11 @@
 body{
-    width: 80%;
-    margin: auto;
 }
 /* header aria start */
+.header {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
 .head{
     display: flex;
     justify-content: space-between;
@@ -10,9 +13,13 @@ body{
 }
 .new-2 a{
     text-decoration: none;
-    margin-right: 10px;
+    margin-right: 20px;
     color: gray;
     font-weight: 700;
+}
+.new-2 a>i{
+    color: rgb(112, 253, 211);
+    font-size: 20px;
 }
 .main{
     display: flex;
@@ -21,34 +28,72 @@ body{
 .text-aria{
     width: 50%;
     padding-top: 30px;
-    color: rgba(43, 38, 38, 0.726);
+    color: #3A3A3A;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
 }
 .text-aria h1{
-    font-size: 42px;
-    font-weight: 800;
+    font-size: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
 }
 .text-aria button{
-    background-color: #dd1177da;
+    background-color: rgb(224, 44, 109);
     padding: 8px 25px;
     border-radius: 15px;
-    font-weight: 700;
     color: white;
-
 }
-.text-aria button img{
-    height: 15px;
+.text-aria button i{
+    color: white;
     margin-left: 5px;
 }
-.add-logo img{
-    padding: 10px 20px;
-    margin-left: 20px;
+.new-2 {
+    margin-top: 20px;
+}
+.add-logo {
+    text-align: center;
+}
+.add-logo img {
+    margin: 25px 30px;
 }
 .logo-photo hr{
-    color: rgb(15, 122, 228);
+    color: rgba(19, 41, 63, 0.356);
 }
 .logo-photo{
     margin-top: 80px;
 }
 /* header aria end  */
+/* main aria start */
+.main-aria h1{
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.main-menu {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px;
+}
+.contaner {
+    padding: 10px;
+}
+.contant-text {
+    padding: 10px;
+}
+.fa-star.filled{
+    color: orange;
+}
+.fa-star.empty{
+    color: gray;
+}
+.fa-star {
+    font-size: 12px;
+}
+.main-website{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: auto;
+} 
