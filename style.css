@@ -1,6 +1,6 @@
 body{
 }
-/* header aria start */
+/* ------------header aria start-------------------- */
 .header {
     width: 90%;
     margin: auto;
@@ -34,7 +34,7 @@ body{
 }
 .text-aria h1{
     font-size: 50px;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: bold;
 }
@@ -63,8 +63,8 @@ body{
 .logo-photo{
     margin-top: 80px;
 }
-/* header aria end  */
-/* main aria start */
+/*------------------------- header aria end ------------------------ */
+/*--------------- main aria start-------------- */
 .main-aria h1{
     text-align: center;
     margin-top: 120px;
@@ -75,12 +75,23 @@ body{
 .main-menu {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 143%;
+    font-family: 'Inter';
+    border-radius: 5px;
 }
 .contaner {
     padding: 10px;
 }
+.contant-text h2 {
+    font-size: 30px;
+}
 .contant-text {
     padding: 10px;
+}
+.prize {
+    font-size: 24px;
 }
 .fa-star.filled{
     color: orange;
@@ -96,4 +107,26 @@ body{
     flex-wrap: wrap;
     width: 85%;
     margin: auto;
-} 
+}
+.button-text button {
+    padding: 10px 20px;
+    position: absolute;
+    right: 5px;
+}
+.button-text i {
+    margin-left: 5px;
+}
+.button-text a {
+    text-decoration: none;
+    color: #E02C6DDE;
+}
+.button-text {
+    width: 85%;
+    text-align: end;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 16px;
+    ;
+}
+
+/*----------- main aria end-------- */ 
