@@ -25,7 +25,7 @@ body{
     font-weight: 700;
 }
 .new-2 a>i{
-    color: rgb(112, 253, 211);
+    color: #c3c5c8;
     font-size: 20px;
 }
 .main{
@@ -199,47 +199,48 @@ body{
 
 
 /*----------- we do responsive start----------------- */
+
 @media only screen and (max-width: 832px){
     .main{
         flex-direction: column-reverse;
         align-items: center;
     }
 }
+
 @media only screen and (max-width:768px){
     .extara{
         align-items: center;
         flex-direction: column;
     }
 }
+
 @media only screen and (max-width: 668px){
+    .head {
+        justify-content: center;
+    }
+    .new-2 {
+        display: none;
+    }
     .main > .text-aria > h1 {
         font-size: 25px;
     }
-}@media only screen and (max-width: 668px){
     .main > .text-aria {
         text-align: center;
         width: 90%;
     }
-}
-@media only screen and (max-width: 668px){
     .md-text-aria {
         font-size: 12px;
         text-align: center;
         width: 90%;
     }
-}
-@media only screen and (max-width: 668px){
     .md-text-aria > h1 {
         font-size: 18px;
     }
-}@media only screen and (max-width: 668px){
     .md-img-aria > img {
         height: 250px;
         width: 350px;
         margin: auto;
     }
-}
-@media only screen and (max-width: 668px){
     .photo-aria > img {
         height: 300px;
         width: 350px;
