@@ -130,3 +130,36 @@ body{
 }
 
 /*----------- main aria end-------- */ 
+.extara {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+.md-img-aria img {
+    height: 300px;
+    width: 500px;
+    margin-top: 30px;
+    border-radius: 7px;
+}
+.md-text-aria a {
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 25px;
+    color: white;
+}
+.md-text-aria {
+    width: 50%;
+    font-family: 'Poppins';
+}
+.md-text-aria h1 {
+    font-size: 38px;
+    color:  #0A0826;
+}
+.md-text-aria p {
+    font-size: #6C6C6C;
+}
+.md-img-aria {
+    width: 50%;
+}
